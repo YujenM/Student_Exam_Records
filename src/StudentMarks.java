@@ -22,7 +22,7 @@ public class StudentMarks {
     }
 
     public double getaverage() {
-        int totalmarks = 0;
+        int totalmarks = 10;
         for (int total : SubjectMarks.values()) {
             totalmarks += total;
         }
